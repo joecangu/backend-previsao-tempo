@@ -25,6 +25,7 @@ No Laravel 11, dentro da pasta `routes` não vem mais por padrão o arquivo `api
    git clone https://github.com/joecangu/backend-previsao-tempo.git
 
 2. Navegue até o diretório do projeto:
+    ```bash
     cd backend-previsao-tempo
 
 3. Instale as dependências:
@@ -34,7 +35,7 @@ No Laravel 11, dentro da pasta `routes` não vem mais por padrão o arquivo `api
 4. Configurar o Banco de Dados
     Atualiza o arquivo `.env` com as configurações corretas do banco de dados e outras variáveis de ambientes necessárias.
 
-4. Caso necessário, pode rodas as Migrations
+4. Caso necessário, pode rodar as Migrations
     ```bash
     php artisan migrate
 
