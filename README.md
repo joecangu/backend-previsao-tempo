@@ -14,6 +14,7 @@ Também foi criado dentro da pasta `Model`o arquivo `Historico`, que é respons�
 E foi criado a migration para criação da tabela de histórico.
 
 No Laravel 11, dentro da pasta `routes` não vem mais por padrão o arquivo `api.php`. Será necessário rodar o seguinte comando:
+    ```bash
     php artisan install:api
 
 
@@ -27,16 +28,19 @@ No Laravel 11, dentro da pasta `routes` não vem mais por padrão o arquivo `api
     cd backend-previsao-tempo
 
 3. Instale as dependências:
+    ```bash
     composer install
 
-4. Confiturar o Banco de Dados
+4. Configurar o Banco de Dados
     Atualiza o arquivo `.env` com as configurações corretas do banco de dados e outras variáveis de ambientes necessárias.
 
 4. Caso necessário, pode rodas as Migrations
+    ```bash
     php artisan migrate
 
 ## Como Usar
 1. Para rodar o projeto em modo de desenvolvimento:
+    ```bash
     php artisan serve
 
 2. Abra http://localhost:8000 para ver se o projeto está rodando no navegador.
